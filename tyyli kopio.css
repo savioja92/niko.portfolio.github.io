@@ -1,0 +1,67 @@
+
+body {background-color: rgb(71, 51, 110);font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background-image: url(tausta1.PNG) ;
+        background-repeat: no-repeat; /* toisto 1.kerta */
+        background-size: cover; /* koko */
+    background-attachment: cover; /* kiinnitys */}
+
+
+video {
+        width: 150%;
+        height: auto;
+      }
+
+.osa1 { width: 50%;
+        float: left;}
+
+.osa2 { width: 50%;
+        float: left;}
+
+
+.osa3 { width: 100%;
+        }
+
+        footer {clear: both;} /*floatin vaikutus loppuut */
+
+
+
+/* nav a {color: rgb(11, 68, 56);
+    background-color: rgb(183, 150, 214);
+    padding: 7px;
+    margin: 20px;
+    border-radius: 10% 10%;
+    display: inline-block;
+    border: 2px solid rgba(186, 215, 215, 0.561);
+    box-shadow: 2px 2px 2px rgb(61, 62, 79);
+    }
+
+nav a:hover {background-color: rgb(197, 167, 131);
+        color: rgb(20, 24, 20);
+        height: 1.5em;}
+*/
+#shrek {width: 100%;
+            max-width: 400px;
+        }
+            
+            h1{color: midnightblue;}
+
+
+main {width: 80%;
+            margin:auto; /* keskitys */
+        background-color: rgba(186, 215, 215, 0.561);
+        padding: 20px 50px 70px 75px; /* tyhjää tilaa reunan ja sisällön väliin */
+        border: 0px solid rgb(82, 95, 94); /* reunus */
+        border-radius:  0% 0%; /* reunan pyöristys */
+            }
+        
+        
+header {text-align: center; /*tekstin keskitys*/
+        }
+
+footer{border-top: 5px rgb(39, 25, 31) ;
+        padding-top: 20px;}
+
+        .flex-container {display: flex;
+            flex-direction: row;}
+
+            
